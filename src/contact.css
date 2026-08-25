@@ -1,0 +1,96 @@
+.contact{
+    content: "";
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('back10.jpg');
+    z-index: -1; 
+    background-size: cover;
+    transition: opacity 1s ease, background-image 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.co{
+    width: 770px;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background:rgb(0,0,0,0.6);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+.full{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.fm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    translate: 0 -100px;
+}
+
+.inp{
+width: 500px;
+height: 40px;
+border-radius: 10px;
+border: 2px solid white;
+padding-left: 20px;
+color: white;
+background-color: transparent;
+}
+
+.txt{
+ width: 500px;
+height: 60px;
+border-radius: 10px;
+border: 2px solid white;
+background-color: transparent;
+padding-left:20px;
+display: flex;
+color: white;
+padding-top: 3px;
+
+}
+
+
+.inp::placeholder{
+    color:white;
+}
+
+.txt::placeholder{
+    color: white;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.lab{
+    font-size: larger;
+}
+.bn{
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}

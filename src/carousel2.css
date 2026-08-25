@@ -1,0 +1,27 @@
+.carousel-inner{
+  width: 88%;
+  height: 650px; 
+  object-fit: cover;
+  margin-left: 88px;
+  
+}
+
+.carousel-indicators{
+  translate: 0px -50px;
+}
+.carousel-item img{
+max-height:650px;
+min-height: 650px;
+}
+.bns{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel-caption{
+ 
+}
+
+#carouselExampleCaptions{
+  height: 700px;
+}

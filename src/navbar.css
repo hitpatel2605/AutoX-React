@@ -1,0 +1,90 @@
+.navbar{
+    background-color:transparent;
+    height: 60px;
+    backdrop-filter:blur(3px);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar-nav{
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translateX(40%)
+}
+
+
+
+
+.nav-item{
+    text-align: center;
+   
+   
+    
+}
+
+.nav-link{
+    text-align: center;
+    color:white;
+    opacity: 1;
+}
+
+.nav-link.active{
+    border-bottom: 3px solid white;
+}
+
+.nav-link:hover{
+    text-align: center;
+    color:white;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.profile li{
+    list-style-type: none;
+    margin-right: 20px;
+    border:2px solid white;
+    width: 40px;
+    border-radius: 100rem;
+    text-align: center;
+    
+}
+
+@media (max-width:872px){
+    .navbar-toggler{
+        background-color: white;
+    }
+    .navbar-nav {
+        transform: none; 
+        justify-content: flex-start; 
+        background-color: black;
+    }
+
+    .nav-link{
+        text-align: center;
+        color:white;
+    }
+    
+    .nav-link:hover{
+        text-align: center;
+        color:white;
+        border-bottom: 2px  solid white;
+    
+    }
+}
+
+

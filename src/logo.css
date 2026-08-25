@@ -1,0 +1,239 @@
+/* body{
+  overflow-x: hidden;
+}
+
+  
+.logo-container {
+  max-height: calc(100vh - 50px);
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}  
+  .logo-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  h2{
+    color:white;
+    margin-left: 15px;
+  }
+  
+  .log{
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+
+  .log{
+    width: 500px;
+    height: 300px;
+    border:2px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 10px;
+  }
+  .log a img{
+   border:none;
+   width: 300px;
+   height: 250px;
+  }
+  .log a img:hover{
+    transform: scale(1.2);
+    transition-duration:0.5s;
+  } 
+   */
+/* 
+   body {
+    overflow-x: hidden;
+  }
+  
+  h2{
+    margin-top: 200px;
+  }
+  .logo-container {
+    max-height: calc(100vh - 50px);
+    margin-top:30px;
+    margin-left: 20px;
+    max-width: 6000px;
+    margin-right: 20px;
+  }
+  
+  .logo-list {
+    display: flex;
+    flex-direction:row;
+    overflow-x: scroll;
+    box-shadow: 10px 10px 10px 10px black;
+    margin-top: 100px;
+    background-color:transparent;
+  height: 450px;
+  position: fixed;
+  }
+
+  .logo-list .log a img{
+    position: fixed;
+  }
+
+  
+  .logo-container h2 {
+    color: white;
+    margin-left: 15px;
+  }
+  
+ 
+  
+  .log {
+    background-color:transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  
+  .h2{
+   transform: translateY(50px);
+  }
+  .log a img {
+    border: none;
+    width: 400px;
+    height: 250px;
+    box-shadow: 10px 10px 10px 5px black;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+  }
+  
+
+/* .log a img:hover{
+transform: scale(1.2);
+transition-duration: 1.8;
+} */
+  /* .log a{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+  } 
+
+  .log a h2{
+    display: none;
+    color:white;
+  }
+  
+  .log a:hover h2{
+    display: block;
+    
+    transform: translateY(80px);
+  } */ */
+
+  
+
+  .logo-container{
+    overflow-x: hidden;
+  }
+  
+  h2{
+    margin-top: 200px;
+    color:white;
+
+  }
+  .logo-container {
+    max-height: calc(100vh - 50px);
+    margin-left: 20px;
+    max-width: 6000px;
+    margin-right: 20px;
+  }
+  .logo-list {
+    display: flex;
+    flex-direction:row;
+  overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 100px;
+    background-color:white;
+    opacity:0.7;
+  height: 250px;
+  border-radius:10px;
+
+  /* position: fixed; */
+  }
+
+  /* .logo-list .log a img{
+    position: fixed;
+  } */
+/* 
+  .logo-list .log a img:hover{
+    position: fixed;
+  }
+   */
+
+
+  
+  .logo-container h2 {
+    color:white;
+  transform: translateY(-10px);
+  transform: translateY(20px);
+  font-weight:600;
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+ 
+  
+  .log {
+    background-color:transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+  }
+  
+  .h2{
+   transform: translateY(150px);
+  }
+  .log a img {
+    border: none;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 2px 3px 2px black;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    background-color: transparent;
+    padding:20px;
+  }
+  
+
+.log a img:hover{
+transform: scale(1.2);
+transition-duration: 1s;
+
+}
+  .log a{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    flex-direction:column;
+  } 
+
+   .log a h2{
+    display: none;
+    color:white;
+  }

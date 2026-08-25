@@ -1,0 +1,28 @@
+.cont{
+    position: fixed;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    bottom: 50px;
+  }
+
+  .loc{
+    color:white;
+  }
+  
+  .map {
+    width: 700px; /* Adjust this value as needed */
+    height: 400px; /* Adjust this value as needed */
+  }
+
+  iframe{
+    width: 700px;
+    height: 400px;
+    border:2px solid black;
+    border-radius: 10px
+  };
+
+
+
+  

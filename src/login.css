@@ -1,0 +1,239 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+
+.Box {
+  width: 40vw;
+  height: 65vh;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  /* border:1px solid white; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  color: white;
+background:rgb(0,0,0,0.4);
+box-shadow: 5px 5px 5px 0px black;
+
+}
+
+.Login .error{
+  color:red
+} 
+
+
+
+.Login  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  flex-direction: column;
+}
+
+.Login input {
+  width: 30vw;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-left: 20px;
+  color: white;
+  padding-left: 10px;
+  cursor: text;
+  margin-top: 20px;
+
+}
+
+ .headi{
+
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:600 ;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  translate:40px 20px;
+
+}
+
+.em{
+  margin-left: 90px;
+}
+
+.head {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.Sign-Up {
+  width: 100px;
+  height: 40px;
+  margin-left: 300px;
+  margin-top: 50px;
+  position: relative;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.Login input::placeholder{
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+}
+.Sign-Up:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.p {
+  margin-left: 240px;
+  margin-top: 20px;
+
+}
+
+.p span a {
+  color: rgb(41, 162, 41);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+.suc{
+  display: none;
+}
+
+.b{
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.Box {
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  margin-top: 40px;
+}
+
+.Box form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  row-gap: 5px;
+  width: 40vw;
+}
+
+form .sub{
+  display: flex;
+  flex-direction: column;
+justify-self:center;
+align-self:center;
+translate:-100px -10px;
+}
+
+
+@media (max-width:810px) {
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .Box {
+    width: 50vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    border: 2px solid white;
+  }
+
+  .Sign-Up {
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    margin-left: 160px;
+
+  }
+
+  .Login h3 {
+    margin-top: 20px;
+    font-size: small;
+  }
+
+  .Login input {
+    width: 30vw;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+    color: white;
+    font-size: small;
+
+  }
+
+  .em {
+    margin-left: 30px;
+  }
+
+  .head {
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+  }
+  .Login .error{
+    translate: -100px 20px;
+
+  }
+
+  .p {
+    margin-left: 160px;
+    margin-top: 10px;
+  }
+
+  .p span a {
+    color: rgb(41, 162, 41);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+}
